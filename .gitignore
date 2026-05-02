@@ -1,0 +1,9 @@
+# Logs y temporales
+logs/
+log-*/
+issues.xml
+.claude/
+*.lnk
+
+# Build HTML5 (regenerable desde Stencyl)
+games-generated/LALALLA/Export/

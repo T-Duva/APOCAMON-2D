@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups format="1">
+    <group eventID="1" id="0">
+        <event-type-region comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <scene-change-color comment="false" x="0" y="0">
+                    <scene eid="2" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="6"/>
+                    <color b="0" g="0" id="3" r="0"/>
+                    <int id="4" val="0"/>
+                    <int id="5" val="5"/>
+                    <color b="204" g="204" id="6" r="204"/>
+                </scene-change-color>
+            </group>
+            <int id="0" val="0"/>
+            <REGION eid="lastcreated" id="1"/>
+            <actortype eid="0" id="2"/>
+        </event-type-region>
+    </group>
+    <group eventID="2" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <camera-follow comment="false" x="0" y="0">
+                    <ACTOR eid="0" id="0"/>
+                </camera-follow>
+            </group>
+        </init>
+    </group>
+    <group eventID="3" id="0">
+        <event-collide-typetotype comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <if comment="false" x="0" y="0">
+                    <group eventID="3" id="-1">
+                        <scene-change-through comment="false" x="0" y="0">
+                            <scene eid="4" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="5"/>
+                        </scene-change-through>
+                    </group>
+                    <get-val-5-1 comment="false" id="0" x="0" y="0"/>
+                </if>
+                <else comment="false" x="0" y="0">
+                    <group eventID="3" id="-1">
+                        <show-alert comment="false" x="0" y="0">
+                            <tostring comment="false" id="0" x="0" y="0">
+                                <int id="0" val="PROHIBIDO PASAR"/>
+                            </tostring>
+                            <int id="1" val="Primero consigue todas las medallas necesarias"/>
+                        </show-alert>
+                    </group>
+                </else>
+            </group>
+            <actortype eid="0" id="0"/>
+            <actortype eid="5" id="1"/>
+        </event-collide-typetotype>
+    </group>
+    <group eventID="4" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <set-volume comment="false" x="0" y="0">
+                    <int id="0" val="5"/>
+                </set-volume>
+                <play-sound4 comment="false" x="0" y="0">
+                    <int id="0" val="0"/>
+                    <sound eid="71" id="1"/>
+                </play-sound4>
+            </group>
+        </init>
+    </group>
+</groups>

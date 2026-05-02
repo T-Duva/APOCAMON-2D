@@ -1,0 +1,89 @@
+{
+	"antialias": true,
+	"buildRecord": "F:\\PROGRAMACION\\juego8b\\Stencyl-4.1.4\\Juegos\\stencylworks\\games-generated\\LALALLA\\Export\\html5",
+	"buildTime": "1777685325560",
+	"debugDraw": false,
+	"disposeImages": false,
+	"forceHiResAssets": true,
+	"initSceneID": 0,
+	"keys": {
+		"up": ["UP"],
+		"down": ["DOWN"],
+		"left": ["LEFT"],
+		"right": ["RIGHT"],
+		"enterkey": ["UNKNOWN"]
+		
+	},
+	"pixelsnap": false,
+	"physicsMode": "NORMAL_PHYSICS",
+	"projectName": "LALALLA",
+	"releaseMode": false,
+	"showConsole": false,
+	"stageWidth": 1280,
+	"stageHeight": 720,
+	"toolsetInterfaceHost": "localhost",
+	"toolsetInterfacePort": 18525,
+
+	"config-mobile": {
+		"autorotate": false,
+		"gameScale": 1,
+		"landscape": false,
+		"toolsetInterfaceHost": "192.168.0.195",
+
+		"config-android": {
+			"disableBackButton": false,
+			"scaleMode": "NO_SCALING",
+			"scales": ["1x"]
+		},
+		
+		"config-ios": {
+			"scaleMode": "NO_SCALING",
+			"scales": ["1x"]
+		}
+	},
+	
+	"config-desktop": {
+		"gameScale": 1.5,
+		"scaleMode": "SCALE_TO_FIT_LETTERBOX",
+		"scales": ["1x"],
+		"startInFullScreen": false
+	},
+	
+	"config-web": {
+		"gameScale": 1.0,
+		"startInFullScreen": false,
+		"scales": ["1x"],
+		"lockURL": "",
+
+		"preloader": {
+			"authorURL": "",
+			"backgroundColor": -15592942,
+			"backgroundImage": "",
+			"badgeImage": "config/preloader-badge.png",
+			"borderThickness": 2,
+			"borderColor": -12303292,
+			"barLocation": 0,
+			"barWidth": 120,
+			"barHeight": 8,
+			"barColor": -7829368,
+			"barOffsetX": 0,
+			"barOffsetY": 0,
+			"barBackgroundColor": -12303292
+		},
+
+		"config-flash": {
+			"scaleMode": "SCALE_TO_FIT_LETTERBOX",
+			"swfPreloader": {
+				"swfLoc": "",
+				"swfX": 0,
+				"swfY": 0,
+				"swfWidth": 0,
+				"swfHeight": 0
+			}
+		},
+		
+		"config-html5": {
+			"toolsetInterfaceHost": "192.168.0.195"
+		}
+	}
+}

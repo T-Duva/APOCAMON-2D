@@ -1,0 +1,58 @@
+{
+  "configurations": [
+    {
+      "request": "launch",
+      "name": "HXCPP Debugger (Desktop/Mobile)",
+      "program": "${input:hxcppLaunchProgram}",
+      "type": "hxcpp"
+    },
+    {
+      "request": "launch",
+      "name": "Hashlink Debugger",
+      "program": "${input:hlLaunchProgram}",
+      "type": "hl"
+    },
+    {
+      "request": "launch",
+      "name": "Flash Debugger",
+      "program": "${input:fdbLaunchProgram}",
+      "type": "fdb"
+    }
+  ],
+  "inputs": [
+    {
+      "options": [
+        {
+          "label": "Windows",
+          "value": "${workspaceFolder}/Export/windows/bin/LALALLA.exe"
+        },
+        {
+          "label": "Wait For Launch",
+          "value": "${workspaceFolder}/debug-helper.bat"
+        }
+      ],
+      "description": "Which program do you want to launch and debug?",
+      "id": "hxcppLaunchProgram",
+      "type": "pickString"
+    },
+    {
+      "options": [{
+        "label": "Hashlink",
+        "value": "${workspaceFolder}/Export/hl/bin/hlboot.dat"
+      }],
+      "description": "Which program do you want to launch and debug?",
+      "id": "hlLaunchProgram",
+      "type": "pickString"
+    },
+    {
+      "options": [{
+        "label": "Flash Player",
+        "value": "${workspaceFolder}/Export/flash/bin/LALALLA.swf"
+      }],
+      "description": "Which program do you want to launch and debug?",
+      "id": "fdbLaunchProgram",
+      "type": "pickString"
+    }
+  ],
+  "version": "0.2.0"
+}

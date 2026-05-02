@@ -1,0 +1,8 @@
+# Stencyl cache / generados
+.cache/
+*.bak
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
