@@ -75,6 +75,7 @@ class SceneEvents_0 extends SceneScript
 	override public function init()
 	{
 		/* ======================== When Creating ========================= */
+		simulateKeyPress("enterkey");
 		setVolumeForAllSounds(5/100);
 		playSound(getSound(74));
 		

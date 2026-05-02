@@ -29,7 +29,19 @@
             locked="false"
             name="Layer 0"
             opacity="100"
+            order="1"
+            scrollFactorX="1.0"
+            scrollFactorY="1.0"
+            visible="true"/>
+        <background
+            blendMode="normal"
+            customScrollFactor="false"
+            id="1"
+            locked="true"
+            name="inicio"
+            opacity="100"
             order="0"
+            rid="87"
             scrollFactorX="1.0"
             scrollFactorY="1.0"
             visible="true"/>
